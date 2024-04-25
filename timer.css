@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(Images/Album\ 1.png) no-repeat center center/ cover;
+  height: 100vh;
+}
+
+#container {
+  background-color: #fff;
+  max-width: 350px;
+  /* height: 50%; */
+  margin: 250px auto;
+  border-radius: 3rem;
+}
+
+#timer {
+  font-size: 3rem;
+  text-align: center;
+  padding: 35px;
+}
+
+#actions {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+#actions button {
+  font-size: 3rem;
+  border: none;
+}
+
+#start-button {
+  background-color: rgb(17, 110, 17);
+}
+
+#reset-button {
+  background-color: rgb(163, 13, 13);
+}
